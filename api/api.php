@@ -17,7 +17,7 @@
                 );
             }
 
-            return $information;
+            return json_encode($information);
         }
     }
 
